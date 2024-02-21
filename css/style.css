@@ -28,7 +28,7 @@
         position: relative;
         list-style: none;
         display: flex;
-        font-size: 1.45rem;
+        font-size: 0.8rem;
         right: 0.5rem;
         color: aliceblue;
     }
@@ -41,7 +41,7 @@
     .seletores li a{
         text-decoration: none;
         color: aliceblue;
-        margin-right: 0.5rem;
+        margin-right: 0.2rem;
         margin-left: 0;
     }
 
