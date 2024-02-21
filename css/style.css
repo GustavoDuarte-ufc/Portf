@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media(max-width: 1000px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(rgb(184, 85, 85) 0%, rgb(141, 40, 128) 100%);
+    }
+
+    .menu{
+        height: 5rem;
+        width: 100%;
+        color: aliceblue;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        background: lightgreen;
+    }
+
+    .seletores{
+        position: relative;
+        list-style: none;
+        display: flex;
+        font-size: 1.45rem;
+        right: 0.5rem;
+        color: aliceblue;
+    }
+
+    .seletores li{
+        margin: 0.5rem;
+        border-right: solid 2px #fff;
+    }
+
+    .seletores li a{
+        text-decoration: none;
+        color: aliceblue;
+        margin-right: 0.5rem;
+        margin-left: 0;
+    }
+
+    .logo{
+        font-size: 1.7rem;
+        position: absolute;
+        left: 3.7rem;
+    }
+
+    .gustavo{
+        margin-top: 0.22rem;
+    }
+
+    .duarte{
+        margin-top: -1rem;
+        margin-left: 0.5rem;
+    }
+    
+}
