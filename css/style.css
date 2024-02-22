@@ -13,13 +13,12 @@
     }
 
     .menu{
-        height: 4rem;
+        height: 65px;
         width: 100%;
         color: aliceblue;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        font-size: 2rem;
         font-family: "Poppins", sans-serif;
         background: lightgreen;
     }
@@ -28,7 +27,7 @@
         position: relative;
         list-style: none;
         display: flex;
-        font-size: 0.8rem;
+        size: 2vh;
         right: 0.5rem;
         color: aliceblue;
     }
@@ -41,6 +40,7 @@
     .seletores li a{
         text-decoration: none;
         color: aliceblue;
+        font-size: 14px;
         margin-right: 0.2rem;
         margin-left: 0;
     }
@@ -48,7 +48,7 @@
     .logo{
         font-size: 1.7rem;
         position: absolute;
-        left: 3.7rem;
+        left: 1.2rem;
     }
 
     .gustavo{
@@ -75,5 +75,73 @@
     .corpo h1{
         text-align: center;
         color: #fff;
+    }
+
+    .corpo p{
+        text-align: center;
+        color: #fff;
+    }
+
+    .imagem-corpo{
+        justify-content: center;
+        display: flex;
+        margin-top: 7%;
+
+    }
+
+    .imagem{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background: lightgreen;
+    }
+
+    .circulo{
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        background: #fff;
+    }
+}
+
+@media(max-width: 500px){
+    .menu{
+        height: 50px;
+        width: 100%;
+        color: aliceblue;
+        font-family: "Poppins", sans-serif;
+        background: lightgreen;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo{
+        left: 38%;
+        font-size: 20px;
+    }
+
+    .gustavo{
+        margin-top: 0.22rem;
+    }
+
+    .duarte{
+        margin-top: -1rem;
+        margin-left: 0.5rem;
+    }
+
+    .navegacao{
+        background: #fff;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        left: 10px;
+        position: absolute;
+    }
+    
+    .seletores{
+        display: none;
     }
 }
