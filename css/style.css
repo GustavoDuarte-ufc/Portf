@@ -256,7 +256,7 @@
     .projetos{
         display: flex;
         flex-wrap: wrap;
-        background: lightgreen;
+        background: #90ee90;
         height: 17rem;
         align-items: center;
         justify-content: center;
@@ -297,6 +297,48 @@
         100%{
             transform: rotate(360deg);
         }
+    }
+
+    /*Contatos*/
+    .nome-contatos{
+        padding-top: 2rem;
+        text-align: center;
+        color: lightgreen;
+        font-weight: 900;
+    }
+
+    .contatos{
+        display: flex;
+        flex-wrap: wrap;
+        background: lightgreen;
+        height: 10rem;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 6px 6px 0;
+        border-radius: 10px;
+    }
+
+    .instagram,
+    .github,
+    .linkedin{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+    }
+
+    .icon-instagram label,
+    .icon-github label,
+    .icon-linkedin label{
+        margin: 0.5rem;
+    }
+
+    .icon-instagram,
+    .icon-github,
+    .icon-linkedin{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 1rem;
     }
 
 }
@@ -453,5 +495,11 @@
         100%{
             transform: rotate(360deg);
         }
+    }
+
+    /*Contatos*/
+    .contatos{
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
     }
 }
