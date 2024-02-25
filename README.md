@@ -1,5 +1,5 @@
 # Portfolio Pessoal
-Primeiro projeto de desenvolvimento web usando html, csse javascript.
+Primeiro projeto de desenvolvimento web usando html, css e javascript.
 
 - Site pessoal
 - Apresentação minimalista e simples, porém moderno
