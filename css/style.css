@@ -24,7 +24,7 @@
         display: none;
     }
 
-    .menu{
+    .menu-nav{
         height: 65px;
         width: 100%;
         color: aliceblue;
@@ -341,6 +341,21 @@
         margin: 1rem;
     }
 
+    /*FIM*/
+    .fim{
+        margin-top: 2rem;
+        height: 3rem;
+        width: 100hv;
+        background: #99ee99;
+        display: flex;justify-content: center;
+        align-items: center;
+    }
+
+    .fim label{
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
 }
 
 @media(max-width: 500px){
