@@ -160,13 +160,15 @@
         height: 3rem;
         width: 100hv;
         background: #99ee99;
-        display: flex;justify-content: center;
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
     .fim label{
         color: #fff;
         border: none;
+        font-size: 0.8rem;
         border-bottom: 1px solid rgb(255, 255, 255);
     }
 }

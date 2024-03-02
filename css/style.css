@@ -177,7 +177,6 @@
     /*botão hamburguer*/
     .btn-hamburguer{
         position: fixed;
-        display: block;
         bottom: 20px;
         right: 20px;
     }
@@ -311,7 +310,7 @@
         display: flex;
         flex-wrap: wrap;
         background: lightgreen;
-        height: 10rem;
+        height: 15rem;
         align-items: center;
         justify-content: center;
         margin: 2rem 6px 6px 0;
@@ -354,8 +353,10 @@
     .fim label{
         color: #fff;
         border: none;
+        font-size: 0.8rem;
         border-bottom: 1px solid rgb(255, 255, 255);
     }
+
 }
 
 @media(max-width: 500px){
@@ -370,11 +371,6 @@
         background: lightgreen;
     }
 
-    .logo{
-        left: 38%;
-        font-size: 25px;
-    }
-
     .gustavo{
         margin-top: 0.22rem;
     }
@@ -382,80 +378,6 @@
     .duarte{
         margin-top: -1rem;
         margin-left: 0.5rem;
-    }
-    
-    .seletores{
-        display: none;
-    }
-
-    .btn-hamburguer{
-        position: relative;
-        display: block;
-        left: 12px;
-        top: 0;
-    }
-
-    .btn-hb {
-        background: #fff;
-        border-radius: 50%;
-        width: 45px;
-        height: 45px;
-        top: 2%;
-        cursor: pointer;
-        box-shadow: 0 0 0 0 #04cc1f;
-        transition: box-shadow 1s ease-in-out;
-    }
-
-    .hamburgue{
-        position: relative;
-        display: block;
-        background: black;
-        width: 25px;
-        height: 2px;
-        top: 49%;
-        right: -23%;
-        transition: .5s ease-in-out;
-    }
-
-    .hamburgue:before, .hamburgue:after {
-        background: black;
-        content: '';
-        display: block;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        transition: .5s ease-in-out;
-    }
-
-    .hamburgue:before{
-        top: -8px;
-    }
-
-    .hamburgue:after{
-        bottom: -8px;
-    }
-    
-    input{
-        display: none;
-    }
-
-    input:checked ~ label .btn-hb{
-        background: #fff;
-        box-shadow: 24px;
-    }
-
-    input:checked ~ label .hamburgue{
-        transform: rotate(45deg);
-    }
-
-    input:checked ~ label .hamburgue:after{
-        transform: rotate(90deg);
-        top: 50%;
-    }
-
-    input:checked ~ label .hamburgue::before{
-        transform: rotate(90deg);
-        top: 50%;
     }
 
     /*PROJETOS*/
