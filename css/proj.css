@@ -140,13 +140,13 @@
     }
 
     .fim{
-        margin-top: 2rem;
         height: 3rem;
         width: 100hv;
         background: #99ee99;
         display: flex;
         justify-content: center;
         align-items: center;
+        top: 100hv;
     }
 
     .fim label{
