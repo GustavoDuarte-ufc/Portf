@@ -371,6 +371,10 @@ body{
         font-size: 1.7rem;
     }
 
+    .gustavo{
+        margin-left: 1rem;
+    }
+
     /*Sobre*/
     .corpo{
         display: flex;
