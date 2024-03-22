@@ -1,5 +1,5 @@
 # Portfolio Pessoal
-Primeiro projeto de desenvolvimento web usando html, css e javascript.
+Primeiro projeto de desenvolvimento web usando html e css.
 
 - Site pessoal
 - Apresentação minimalista e simples, porém moderno
@@ -7,3 +7,4 @@ Primeiro projeto de desenvolvimento web usando html, css e javascript.
 - Exibição da carreira acadêmica e profissional.
 
   Gustavo Duarte.
+https://gustavo-duarte.netlify.app
