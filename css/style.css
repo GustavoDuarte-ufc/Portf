@@ -11,19 +11,24 @@
 }
 
 body{
-    width: 100hv;
+    width: 98vw;
     background: #fff;
+}
+
+.menu{
+    display: none;
 }
 
 .menu-nav{
     height: 65px;
-    width: 100hv;
+    width: 98vw;
     color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
     background: #99ee99;
+    text-align: center;
 }
 
 .seletores{
@@ -33,6 +38,9 @@ body{
 .logo{
     font-size: 1.7rem;
     display: flex;
+    text-align: center;
+    width: 100vw;
+    justify-content: center;
 }
 
 .gustavo{
@@ -87,7 +95,7 @@ body{
     text-align: center;
     color: lightgreen;
     font-family: "Poppins", sans-serif;
-    font-size: 3.4rem;
+    font-size: 2rem;
 }
 
 .corpo h5{
@@ -98,7 +106,7 @@ body{
 
 .corpo .qualificacoes li{
     text-align: center;
-    list-style: circle;
+    list-style: none;
     font-size: 1.5rem;
     font-weight: 280;
     color: #fff;
@@ -298,26 +306,6 @@ body{
 }
 
 @media screen and (max-width: 1000px){
-
-    .corpo1-{
-        display: none;
-    }
-    
-    .h6-{
-        display: none;
-    }
-    
-    .sobre-{
-        display: none;
-    }
-    
-    .corpo-{
-        display: none;
-    }
-    
-    .h5-{
-        display: none;
-    }
 
     *{
         margin: 0;
